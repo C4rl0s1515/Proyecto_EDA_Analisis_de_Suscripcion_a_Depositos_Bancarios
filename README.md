@@ -1,7 +1,7 @@
 
 # Análisis Exploratorio de Datos del Proceso de Suscripción a Depósitos Bancarios
 
-## 1. Introducción
+## 1. 📝 Introducción
 
 Este proyecto tiene como finalidad analizar en profundidad el comportamiento de los clientes contactados durante diversas campañas de marketing telefónico realizadas por una entidad bancaria, con el objetivo de promover la contratación de un depósito a plazo. 
 
@@ -17,7 +17,7 @@ Este análisis permite caracterizar los perfiles de mayor y menor propensión a 
 
 El resultado final del proyecto busca proporcionar una comprensión sólida del proceso de captación de clientes y de las variables que más contribuyen a la conversión, permitiendo optimizar recursos, mejorar la segmentación y aumentar la eficacia comercial, para la planificación estratégica de futuras campañas.
 
-## 2. Objetivos del Análisis
+## 2. 📌 Objetivos del Análisis
 
 ### Objetivo General
 
@@ -35,7 +35,7 @@ Mediante la integración de información de ambas bases de datos y la evaluació
 
 - ***Análisis Exploratorio de Datos (EDA)*** : Examinar de manera detallada las relaciones entre variables mediante técnicas univariantes y bivariantes, identificando patrones, tendencias y factores potencialmente influyentes en la suscripción del producto.
 
-## 3. Estructura del Proyecto
+## 3. 🧱 Estructura del Proyecto
 
 ```bash
 |------ data # Conjunto de datos utilizados en el proyecto.
@@ -46,13 +46,14 @@ Mediante la integración de información de ambas bases de datos y la evaluació
     |-- bank_additional_limpio.csv # Versión depurada del dataset de  campañas.
     |-- customer-details_limpio.csv # Datos de clientes limpios y estandarizados.
     |-- df_final.parquet # Dataset unificado y preparado para el análisis final.
+    |-- df_final_eda.parquet # Dataset final con las variables creadas en el EDA.
 |------ notebook # Notebooks con el desarrollo del análisis.
     |--- 0.1-Analisis_preliminar.ipynb # Exploración inicial y revisión del estado de los datos.
     |--- 0.2_Limpieza.ipynb # Procesos de depuración y transformación del dataset.
     |--- 0.3_Proyecto_EDA.ipynb # Análisis exploratorio completo y visualizaciones.
 |------ README.md # Documento principal con la descripción general del proyecto.
 ```
-## 4. Descripción del Conjunto de Datos 
+## 4. 🗃️ Descripción del Conjunto de Datos 
 
 Este conjunto de datos contiene información sobre clientes bancarios y su comportamiento durante las campañas de marketing telefónico.
 
@@ -136,7 +137,7 @@ Además de las variables ya descritas en los apartados anteriores, se incluyen l
 
 - **time_until_signup**: Esta variable agrupa a los clientes en intervalos de tiempo según el número de días transcurridos desde su alta en la empresa, usando los siguientes grupos: `< 6 meses`, `6–12 meses`, `1–2 años`, `> 2 años`
 
-## 5. Instalación y requisitos
+## 5. ⚙️ Instalación y requisitos
 
 El proyecto se ha desarrollado en un entorno **Python**, empleando un conjunto de librerías orientadas a la gestión eficiente de datos y a la generación de visualizaciones analíticas:
 
@@ -148,7 +149,7 @@ El proyecto se ha desarrollado en un entorno **Python**, empleando un conjunto d
 
 - **Parquet**: Formato de almacenamiento que facilita operaciones de lectura y escritura de forma más rápida y eficiente, optimizando el manejo del dataset.
 
-## 6. Recap Sesiones 
+## 6. 🕒 Recap Sesiones 
 
 ### Sesión 1
 
@@ -202,7 +203,7 @@ El proyecto se ha desarrollado en un entorno **Python**, empleando un conjunto d
 
 - Se elabora un informe detallado en el que se documenta de manera estructurada el proceso realizado, las observaciones más relevantes, los principales hallazgos obtenidos y las conclusiones e implicaciones derivadas del análisis.
 
-## 7. Resultados y Conclusiones
+## 7. 🧠 Resultados y Conclusiones
 
 El análisis exploratorio de datos ha permitido obtener una visión detallada del comportamiento de los clientes y de los factores asociados a la contratación del depósito. 
 
@@ -226,11 +227,11 @@ Desde el punto de vista temporal, los clientes con una incorporación más recie
 
 Los resultados obtenidos permiten identificar perfiles con mayor probabilidad de conversión y proporcionan una base sólida para el desarrollo de modelos predictivos y para la toma de decisiones estratégicas orientadas a mejorar la eficacia de las campañas.
 
-## 8. Contribuciones
+## 8. 🤝 Contribuciones
 
 - Cualquier contribucion es bien venida, si quiere colaborar en el proyecto, abre un pull request.
 
-## 9. Autores
+## 9. ✍️ Autores
 
 - Carlos Hernando
 
